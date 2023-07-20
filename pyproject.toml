@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "asyncio-website-parser"
+version = "0.1.0"
+description = ""
+authors = ["igor_pont <pontigor11@gmail.com>"]
+readme = "README.md"
+packages = [{include = "asyncio_website_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
